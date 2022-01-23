@@ -1,0 +1,1 @@
+import '../css/template2.css';
