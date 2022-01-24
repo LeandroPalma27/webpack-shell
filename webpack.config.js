@@ -51,7 +51,7 @@ module.exports = {
             },
             {
                 test: /\.(sa|sc|c)ss$/i,
-                exclude: [/styles.css$/],
+                exclude: [/styles.css$/, /index.css$/, /template2.css$/], // Aca tambien.
                 use: ["style-loader", "css-loader"],
             },
             {
