@@ -63,12 +63,8 @@ Tan solo hace falta incluir algun recurso dentro de la carpeta especifica.
 
 Al momento de clonar este shell, revisar los archivos de configuracion antes de empezar a desarrollar, ya que la configuracion para generar los otros templates del proyecto (excluyendo el index y el template2 que es de ejemplo) estan desactivados.
 
-En caso de querer incluir otros templates solo debes incluir el nombre como un string dentro del siguiente arreglo:
+En caso de querer incluir otros templates solo debes incluir el nombre como un string dentro del siguiente arreglo en el archivo webpack.config.js:
 
 ```js
-```
-
-O en caso de solo querer al index como unico template:
-
-```js
+let otherHtmlPageNames = ['template2']; // Linea 6.
 ```
